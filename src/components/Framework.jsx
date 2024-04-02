@@ -2,7 +2,7 @@ import imgArticle from "../assets/images/frameworks-2.jpg";
 import Title from "./Title";
 const Framework = () => {
 	return (
-		<section id="framework" className="pt-[48px]">
+		<section id="framework" className="pt-[48px] px-8">
 			<div>
 				<Title title={"Framework"}/>
 			</div>

@@ -2,8 +2,8 @@ import NewArticle from "./NewArticle";
 
 const NewContainer = () => {
 	return (
-		<section className="bg-VeryDarkBlue text-OffWhite pt-[28px] px-[24px]">
-			<h1 className="text-SoftOrange text-4xl font-bold">News</h1>
+		<section className="bg-VeryDarkBlue text-OffWhite pt-[28px] px-[24px] dark:bg-slate-500 mb-2">
+			<h1 className="text-SoftOrange text-4xl font-bold dark:text-gray-950">News</h1>
 			<aside className="grid grid-row-3 divide-y">
 				<NewArticle
 					title="Hydrogen VS Electric Cars"

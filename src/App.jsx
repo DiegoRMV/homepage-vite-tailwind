@@ -6,12 +6,11 @@ import Trending from "./components/Trending";
 
 function App() {
 	return (
-		<main className="px-4 container mx-auto">
+		<main className="container mx-auto dark:bg-black relative">
 			<Header />
 			<Home />
 			<Framework />
 			<Trending />
-
 			<Footer />
 		</main>
 	);
