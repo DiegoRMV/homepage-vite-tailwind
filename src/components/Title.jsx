@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 const Title = ({ title }) => {
 	return (
-		<h1 className="text-center text-4xl md:text-5xl lg:text-6xl font-semibold p-4">
+		<h1 className="text-center text-4xl md:text-5xl lg:text-6xl font-semibold p-6 dark:text-white">
 			{title}
 		</h1>
 	);

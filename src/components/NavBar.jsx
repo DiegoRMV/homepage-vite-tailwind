@@ -25,8 +25,8 @@ const NavBar = () => {
 		setOpen(!open);
 	};
 	return (
-		<nav>
-			<div className="flex place-content-between items-center">
+		<nav className="">
+			<div className="mx-auto flex place-content-between items-center">
 				<a href="#home">
 					<svg width="65" height="40" xmlns="http://www.w3.org/2000/svg">
 						<path

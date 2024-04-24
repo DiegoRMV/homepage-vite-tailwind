@@ -1,5 +1,5 @@
-import imgArticle from "../assets/images/frameworks-2.jpg";
-import Title from "./Title";
+import imgFramework from "/framework.png";
+import Title from "../components/Title";
 const Framework = () => {
 	return (
 		<section id="framework" className="pt-[48px] px-8">
@@ -11,8 +11,8 @@ const Framework = () => {
 					<div className="flex-1">
 						<img
 							className="grow rounded-md"
-							src={imgArticle}
-							alt="imagen de computadora de escritorio"
+							src={imgFramework}
+							alt="imagen de conjunto de frameworks"
 						/>
 					</div>
 					<div className="flex-1 flex flex-col">
@@ -32,8 +32,8 @@ const Framework = () => {
 						</div>
 					</div>
 				</div>
-				<div>
-					<h1 className="border-2 my-4 text-center text-xl lg:text-2xl font-semibold rounded-md p-2 text-white">
+				<div className="mt-8">
+					<h1 className="border-2 my-6 text-center text-xl lg:text-2xl font-semibold rounded-md p-2 text-white">
 						Características de los frameworks
 					</h1>
 

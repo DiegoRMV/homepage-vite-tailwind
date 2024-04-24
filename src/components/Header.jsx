@@ -24,8 +24,8 @@ const Header = () => {
 	return (
 		<header
 			className={`py-4 px-10 ${
-				showBackground ? "bg-gray-300 dark:bg-zinc-950" : "bg-white dark:bg-black"
-			} w-full fixed right-0 left-0 sm:sticky top-0`}
+				showBackground ? "bg-teal-100	 dark:bg-zinc-950" : "bg-white dark:bg-black"
+			} fixed top right-0 left-0 max-w-[1536px] mx-auto`}
 		>
 			<NavBar />
 		</header>

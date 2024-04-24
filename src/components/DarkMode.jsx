@@ -23,10 +23,10 @@ const DarkMode = () => {
     <>
       <button
         onClick={handleTheme}
-        className="hover:animate-pulse font-cardo rounded-md  cursor-pointer py-1  ml-2 text-black dark:text-white"
+        className="font-cardo rounded-md cursor-pointer py-1  ml-2 text-black dark:text-white"
         aria-label="darkMode"
       >
-        {theme === "dark" ? <MdDarkMode size={20} /> : <BsSun size={20} />}
+        {theme === "dark" ? <MdDarkMode size={28} /> : <BsSun size={28} />}
       </button>
     </>
   );

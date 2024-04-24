@@ -1,5 +1,5 @@
-import ArticleContainer from "./ArticleContainer";
-import Title from "./Title";
+import ArticleContainer from "../components/ArticleContainer";
+import Title from "../components/Title";
 
 const Trending = () => {
 	return (
