@@ -1,4 +1,4 @@
-import imgFramework from "/framework.png";
+import imgFramework from "/img/framework.png";
 import Title from "../components/Title";
 const Framework = () => {
 	return (
